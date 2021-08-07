@@ -1,0 +1,15 @@
+﻿/* внешние границы таблицы серого цвета толщиной 1px */
+table#identified {
+   border: 1px solid grey; width: 100%
+}
+/* границы ячеек первого ряда таблицы */
+table#identified th{
+   border: 1px solid grey;
+}
+/* границы ячеек тела таблицы */
+table#identified td{
+   border: 1px solid grey;padding-left: 10px
+}
+table#identified{
+border-collapse:collapse;
+}
